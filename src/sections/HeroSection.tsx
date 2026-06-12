@@ -7,6 +7,8 @@ const NAV_LINKS = ['About', 'Price', 'Projects', 'Contact'];
 const PORTRAIT_URL =
   'https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/e70514eacd53fc2a586dd5abd5e0a558959fc8a9/4240ed649b9405b8f756226634e60ccab7269bc0';
 
+const PORTRAIT_LINK = 'https://www.figma.com/community/file/1647215463872249914';
+
 export default function HeroSection() {
   return (
     <section
@@ -43,11 +45,13 @@ export default function HeroSection() {
             activeTransition="transform 0.3s ease-out"
             inactiveTransition="transform 0.6s ease-in-out"
           >
-            <img
-              src={PORTRAIT_URL}
-              alt="Jack — 3D creator portrait"
-              className="w-full"
-            />
+            <a href={PORTRAIT_LINK} target="_blank" rel="noreferrer">
+              <img
+                src={PORTRAIT_URL}
+                alt="Jack — 3D creator portrait"
+                className="w-full"
+              />
+            </a>
           </Magnet>
         </FadeIn>
       </div>
