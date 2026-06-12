@@ -2,7 +2,7 @@ import FadeIn from '../components/FadeIn';
 import Magnet from '../components/Magnet';
 import ContactButton from '../components/ContactButton';
 
-const NAV_LINKS = ['About', 'Price', 'Projects', 'Contact'];
+const NAV_LINKS = ['About', 'Services', 'Projects', 'Contact'];
 
 const PORTRAIT_URL =
   'https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/e70514eacd53fc2a586dd5abd5e0a558959fc8a9/4240ed649b9405b8f756226634e60ccab7269bc0';
@@ -31,8 +31,8 @@ export default function HeroSection() {
 
       <div className="overflow-hidden">
         <FadeIn delay={0.15} y={40}>
-          <h1 className="hero-heading mt-6 w-full whitespace-nowrap text-center text-[14vw] font-black uppercase leading-none tracking-tight sm:mt-4 sm:text-[15vw] md:-mt-5 md:text-[16vw] lg:text-[17.5vw]">
-            Hi, i&apos;m jack
+          <h1 className="hero-heading mt-6 w-full whitespace-nowrap text-center text-[13vw] font-black uppercase leading-none tracking-tight sm:mt-4 sm:text-[14vw] md:-mt-5 md:text-[15vw] lg:text-[16vw]">
+            Hi, i&apos;m vishal
           </h1>
         </FadeIn>
       </div>
@@ -48,7 +48,7 @@ export default function HeroSection() {
             <a href={PORTRAIT_LINK} target="_blank" rel="noreferrer">
               <img
                 src={PORTRAIT_URL}
-                alt="Jack — 3D creator portrait"
+                alt="Vishal — HR professional portrait"
                 className="w-full"
               />
             </a>
@@ -62,7 +62,7 @@ export default function HeroSection() {
             className="max-w-[160px] font-light uppercase leading-snug tracking-wide text-[#D7E2EA] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
           >
-            a 3d creator driven by crafting striking and unforgettable projects
+            an hr professional driven by building people-first teams and thriving workplaces
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>

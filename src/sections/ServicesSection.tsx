@@ -3,33 +3,33 @@ import FadeIn from '../components/FadeIn';
 const SERVICES = [
   {
     number: '01',
-    name: '3D Modeling',
+    name: 'Talent Acquisition',
     description:
-      'Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.',
+      'End-to-end recruitment — from sourcing and screening to interviews and offer negotiation — finding the right people for the right roles, fast.',
   },
   {
     number: '02',
-    name: 'Rendering',
+    name: 'Onboarding',
     description:
-      'High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.',
+      'Structured onboarding journeys that turn new hires into confident, connected, and productive team members from day one.',
   },
   {
     number: '03',
-    name: 'Motion Design',
+    name: 'Employee Engagement',
     description:
-      'Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.',
+      'Culture programs, pulse surveys, and recognition initiatives that boost morale, strengthen belonging, and keep retention high.',
   },
   {
     number: '04',
-    name: 'Branding',
+    name: 'Performance Management',
     description:
-      'Crafting cohesive visual identities — from logos to full brand systems — that communicate a clear and memorable presence.',
+      'Clear goal-setting, regular feedback cycles, and fair appraisal systems that help people grow while the business delivers.',
   },
   {
     number: '05',
-    name: 'Web Design',
+    name: 'HR Operations & Compliance',
     description:
-      'Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.',
+      'Policies, payroll coordination, and labour-law compliance that keep the workplace fair, safe, and running smoothly.',
   },
 ];
 

@@ -3,7 +3,7 @@ import AnimatedText from '../components/AnimatedText';
 import ContactButton from '../components/ContactButton';
 
 const ABOUT_TEXT =
-  "With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!";
+  "With more than five years of experience in human resources, i focus on talent acquisition, employee engagement, and people operations, i truly enjoy helping organizations build teams that stand out and bring out the best in their people. Let's build something incredible together!";
 
 const DECORATIONS = [
   {
