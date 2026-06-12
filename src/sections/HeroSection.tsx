@@ -5,7 +5,7 @@ import ContactButton from '../components/ContactButton';
 const NAV_LINKS = ['About', 'Price', 'Projects', 'Contact'];
 
 const PORTRAIT_URL =
-  'https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png';
+  'https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/e70514eacd53fc2a586dd5abd5e0a558959fc8a9/4240ed649b9405b8f756226634e60ccab7269bc0';
 
 export default function HeroSection() {
   return (
