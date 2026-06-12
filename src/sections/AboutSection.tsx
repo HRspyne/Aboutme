@@ -3,7 +3,7 @@ import AnimatedText from '../components/AnimatedText';
 import ContactButton from '../components/ContactButton';
 
 const ABOUT_TEXT =
-  "With more than five years of experience in human resources, i focus on talent acquisition, employee engagement, and people operations, i truly enjoy helping organizations build teams that stand out and bring out the best in their people. Let's build something incredible together!";
+  "As an HRBP at Spyne.ai, i partner with the C-suite on people strategy — scaling the team from 144 to 310+ while building AI-powered HR systems, data-driven performance frameworks, and engagement programs people actually love. MBA from Delhi School of Economics. Let's build something incredible together!";
 
 const DECORATIONS = [
   {

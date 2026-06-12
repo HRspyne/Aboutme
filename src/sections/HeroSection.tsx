@@ -20,7 +20,11 @@ export default function HeroSection() {
           {NAV_LINKS.map((link) => (
             <a
               key={link}
-              href={`#${link.toLowerCase()}`}
+              href={
+                link === 'Contact'
+                  ? 'mailto:vishalchauhan987654@gmail.com'
+                  : `#${link.toLowerCase()}`
+              }
               className="text-sm font-medium uppercase tracking-wider text-[#D7E2EA] transition-opacity duration-200 hover:opacity-70 md:text-lg lg:text-[1.4rem]"
             >
               {link}
@@ -62,7 +66,7 @@ export default function HeroSection() {
             className="max-w-[160px] font-light uppercase leading-snug tracking-wide text-[#D7E2EA] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
           >
-            an hr professional driven by building people-first teams and thriving workplaces
+            an hr business partner blending people strategy with ai, data, and automation
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>

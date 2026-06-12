@@ -3,33 +3,33 @@ import FadeIn from '../components/FadeIn';
 const SERVICES = [
   {
     number: '01',
-    name: 'Talent Acquisition',
+    name: 'Strategic HR Partnership',
     description:
-      'End-to-end recruitment — from sourcing and screening to interviews and offer negotiation — finding the right people for the right roles, fast.',
+      'Partnering with founders and the C-suite on people strategy, org design, and workforce planning — keeping talent supply ahead of the product roadmap through 115% headcount growth.',
   },
   {
     number: '02',
-    name: 'Onboarding',
+    name: 'HR Tech & Automation',
     description:
-      'Structured onboarding journeys that turn new hires into confident, connected, and productive team members from day one.',
+      'Building AI-powered HR tools — ticketing chatbots, Looker Studio dashboards, and automated workflows — that cut query resolution from over 72 hours to under 24.',
   },
   {
     number: '03',
-    name: 'Employee Engagement',
+    name: 'Performance Management',
     description:
-      'Culture programs, pulse surveys, and recognition initiatives that boost morale, strengthen belonging, and keep retention high.',
+      'Data-centric, RAG-based performance frameworks with real-time leadership dashboards, delivering a 25% lift in team productivity.',
   },
   {
     number: '04',
-    name: 'Performance Management',
+    name: 'Talent Acquisition & Governance',
     description:
-      'Clear goal-setting, regular feedback cycles, and fair appraisal systems that help people grow while the business delivers.',
+      'Structured, bias-aware hiring — competency-aligned interview debriefs and sequenced hiring waves that scale teams fast without breaking culture.',
   },
   {
     number: '05',
-    name: 'HR Operations & Compliance',
+    name: 'Engagement & Culture',
     description:
-      'Policies, payroll coordination, and labour-law compliance that keep the workplace fair, safe, and running smoothly.',
+      'High-impact engagement and CSR programs — from reworked onboarding journeys to a Diwali NGO marketplace — that strengthen belonging and employer brand.',
   },
 ];
 
